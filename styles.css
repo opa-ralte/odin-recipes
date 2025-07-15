@@ -1,0 +1,25 @@
+.container {
+
+    display: flex;
+    gap: 20px;
+    background-color: pink;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px;
+    border: 3px solid indigo;
+    justify-content: center;
+}
+
+.item {
+    flex: 1, 1, auto;
+    height: 50px;
+    flex-direction: row;
+    background: aquamarine;
+    border: 2px solid;
+}
+
+.title {
+    color: darkblue;
+}
